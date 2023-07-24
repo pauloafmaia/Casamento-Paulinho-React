@@ -10,12 +10,12 @@ function Presenca() {
 
   return (
     <>
-      <div className="p-4 space-y-2">
+      <div className="p-4">
         <h1 className="text-sm text-center font-bold">Confirmar Presença</h1>
       </div>
       <div className="w-full p-4">
         <form
-          className="flex flex-col space-y-4"
+          className="flex flex-col space-y-8"
           onSubmit={handleSubmit(onSubmit)}
         >
           <input

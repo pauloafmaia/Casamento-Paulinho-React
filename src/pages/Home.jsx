@@ -2,7 +2,7 @@
 function Home() {
   return (
     <>
-    <div className="p-4 space-y-2">
+    <div className="p-4 space-y-6">
         <h1 className="text-sm text-center font-bold">Bem-vindos!</h1>
         <p className="text-xs text-justify">
             É com muito prazer que nós, Barbara e Felipe, chegamos neste momento de consagração da nossa história de
@@ -27,15 +27,17 @@ function Home() {
             Aguardamos todos vocês para celebrar esse grande dia!!
         </p>
     </div>
-    <div className="flex flex-row justify-center space-x-4 mb-4">
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+    <div className="flex flex-row justify-center space-x-4 mb-6">
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+    </div>
+    <div className="flex flex-row justify-center space-x-4 mb-6">
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
     </div>
     <div className="flex flex-row justify-center space-x-4">
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
-        <img className="w-1/4" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
+        <img className="w-2/5" src="./images/tianhao-wang-TiSXArRpJnY-unsplash.jpg" alt="" />
     </div>
     </>
   )
