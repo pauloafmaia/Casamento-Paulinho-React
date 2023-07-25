@@ -9,7 +9,7 @@ export const theme = {
     "2xl": "1536px",
   },
   extend: {
-    colors: { "dark-green": "#33433D", "dark-gray": "#F2EFED" },
+    colors: { "dark-green": "#33433D", "dark-gray": "#F2EFED", "waze": "#33ccff" },
   },
   fontFamily: {
     'thin':['Colaborate-Thin']

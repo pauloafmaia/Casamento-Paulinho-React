@@ -1,3 +1,5 @@
+import { Icon } from "@iconify/react";
+
 function Local() {
   return (
     <>
@@ -23,17 +25,28 @@ function Local() {
         </p>
       </div>
       <div className="w-full h-auto p-5 flex justify-center items-center mb-6 mt-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.6532833484143!2d-35.03546842528616!3d-7.9312330920926275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab11e751308ebd%3A0x916e05cf01f2651a!2sCondom%C3%ADnio%20Terra%20Viva!5e0!3m2!1spt-BR!2sbr!4v1690234626763!5m2!1spt-BR!2sbr"></iframe>
+        <iframe width={"380px"} height={"300px"} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.6532833484143!2d-35.03546842528616!3d-7.9312330920926275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab11e751308ebd%3A0x916e05cf01f2651a!2sCondom%C3%ADnio%20Terra%20Viva!5e0!3m2!1spt-BR!2sbr!4v1690234626763!5m2!1spt-BR!2sbr"></iframe>
       </div>
-      <div className="flex justify-center mb-6 mt-6">
-        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded">
+      <div className="flex justify-around mb-6 mt-6">
+        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded flex flex-row items-center space-x-1">
           <a
             target="_blank"
             href="https://ul.waze.com/ul?place=ChIJvY4wUecRqwcRGmXyAc8FbpE&ll=-7.93123310%2C-35.03289350&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
             rel="noreferrer"
           >
-            Clique aqui para ir
+            Abrir no Waze
           </a>
+          <Icon icon="mdi:waze" width="24" height="24"/>
+        </button>
+        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded flex flex-row items-center space-x-1">
+          <a
+            target="_blank"
+            href="https://www.google.com/maps/dir//Condom%C3%ADnio+Terra+Viva+-+Av.+Indai%C3%A1+de+Aldeia,+Paudalho+-+PE,+55825-000/@-7.9312331,-35.0328935,17z/data=!4m6!4m5!1m0!1m2!1m1!1s0x7ab11e751308ebd:0x916e05cf01f2651a!3e0"
+            rel="noreferrer"
+          >
+            Abrir no Maps
+          </a>
+          <Icon icon="gg:pin" width="24" height="24" />
         </button>
       </div>
     </>
