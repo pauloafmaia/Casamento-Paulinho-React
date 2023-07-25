@@ -17,34 +17,34 @@ function NavBar() {
       </div>
       <div>
         {openMenu && (
-            <div className="w-full h-auto bg-dark-green p-6 lg:hidden">
-              <ul className="flex flex-col justify-center items-center gap-6 text-sm text-white">
-                <NavLink className="font-bold" onClick={setMenuOpen} to={"/"}>
-                  Laura & Paulinho
-                </NavLink>
-                <NavLink
-                  className="font-bold"
-                  onClick={setMenuOpen}
-                  to={"/local"}
-                >
-                  Local
-                </NavLink>
-                <NavLink
-                  className="font-bold"
-                  onClick={setMenuOpen}
-                  to={"/lista"}
-                >
-                  Lista de Presentes
-                </NavLink>
-                <NavLink
-                  className="font-bold"
-                  onClick={setMenuOpen}
-                  to={"/presenca"}
-                >
-                  Confirmar Presença
-                </NavLink>
-              </ul>
-            </div>
+          <div className="w-full h-auto bg-dark-green p-6 lg:hidden">
+            <ul className="flex flex-col justify-center items-center gap-6 text-sm text-white tracking-wider">
+              <NavLink className="font-thin" onClick={setMenuOpen} to={"/"}>
+                Laura & Paulinho
+              </NavLink>
+              <NavLink
+                className="font-thin"
+                onClick={setMenuOpen}
+                to={"/local"}
+              >
+                Local
+              </NavLink>
+              <NavLink
+                className="font-thin"
+                onClick={setMenuOpen}
+                to={"/lista"}
+              >
+                Lista de Presentes
+              </NavLink>
+              <NavLink
+                className="font-thin"
+                onClick={setMenuOpen}
+                to={"/presenca"}
+              >
+                Confirmar Presença
+              </NavLink>
+            </ul>
+          </div>
         )}
       </div>
       <div className="w-full h-auto bg-dark-green p-4 hidden lg:block sticky top-0">

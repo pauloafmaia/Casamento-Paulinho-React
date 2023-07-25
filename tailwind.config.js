@@ -12,7 +12,8 @@ export const theme = {
     colors: { "dark-green": "#33433D", "dark-gray": "#F2EFED", "waze": "#33ccff" },
   },
   fontFamily: {
-    'thin':['Colaborate-Thin']
+    'thin':['Colaborate-Thin'],
+    'delmon':['Delmon Delicate']
   }
 };
 export const plugins = [];

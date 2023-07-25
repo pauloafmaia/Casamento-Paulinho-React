@@ -3,27 +3,27 @@ function Home() {
   return (
     <>
     <div className="p-4 space-y-6">
-        <h1 className="text-sm text-center font-bold">Bem-vindos!</h1>
-        <p className="text-xs text-justify">
+        <h1 className="text-sm text-center font-bold text-dark-green">Bem-vindos!</h1>
+        <p className="text-xs text-justify text-dark-green">
             É com muito prazer que nós, Barbara e Felipe, chegamos neste momento de consagração da nossa história de
             amor junto com vocês.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-xs text-justify text-dark-green">
             Pensando nisso, vamos dividir algumas informações e detalhes da organização do nosso casamento. Estamos
             muito felizes e contamos com a presença de todos.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-xs text-justify text-dark-green">
             Saibam que quem está aqui é muito especial para nós e para nossa família.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-xs text-justify text-dark-green">
             Por isso, confirme sua presença assim que possível. Basta acessar o Menu, clicar em “Confirme sua Presença”
             e preencher os dados necessários.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-xs text-justify text-dark-green">
             Para nos presentear, acesse a Lista de Casamento e fique à vontade para escolher o melhor formato e opção
             para você!
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-xs text-justify text-dark-green">
             Aguardamos todos vocês para celebrar esse grande dia!!
         </p>
     </div>
