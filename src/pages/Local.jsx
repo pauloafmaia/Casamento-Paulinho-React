@@ -4,19 +4,19 @@ function Local() {
   return (
     <>
       <div className="p-4 space-y-6">
-        <h1 className="text-sm text-center font-bold">Local e Data</h1>
-        <p className="text-xs text-justify">
+        <h1 className="text-2xl text-center font-thin font-extrabold text-dark-green">Local e Data</h1>
+        <p className="text-sm text-justify font-thin text-dark-green">
           A fazenda fica a aproximadamente 2 horas de distância de São Paulo.
           Foi fundada em 1854 pelo Barão de São João de Rio Claro. O nome de
           Santa Gertrudes foi posto pelo Barão em homenagem à memória de sua
           mãe, D. Gertrudes Galvão de Moura Lacerda.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-sm text-justify font-thin text-dark-green">
           Após a morte do Marquês e de sua mulher, a fazenda foi herdada por D.
           Antônia dos Santos Silva Prates e pelo Conde de Prates, atingindo o
           seu apogeu.
         </p>
-        <p className="text-xs text-justify">
+        <p className="text-sm text-justify font-thin text-dark-green">
           Entre 1890 e 1910 , o Conde construiu uma das maiores e mais
           tecnificadas estruturas de plantação, benefício e comercialização do
           café, incluindo ferraria, selaria, máquinas, escola, cinema,
@@ -24,10 +24,17 @@ function Local() {
           energia elétrica, além de cunhar sua própria moeda.
         </p>
       </div>
-      <h1 className="text-sm text-center font-bold">Condomínio Terra Viva</h1>
-      <h1 className="text-xs text-center">
-        Av. Indaiá de Aldeia, Paudalho - PE, 55825-000
-      </h1>
+      <div className="flex justify-center p-4">
+        <img className="w-1/2" src="../../images/teste.png" alt="" />
+      </div>
+      <div className="p-4">
+        <h1 className="text-sm text-center font-extrabold font-thin uppercase text-dark-green">
+          Condomínio Terra Viva
+        </h1>
+        <h1 className="text-sm text-center font-thin text-dark-green">
+          Av. Indaiá de Aldeia, Paudalho - PE, 55825-000
+        </h1>
+      </div>
       <div className="mr-4 ml-4 mt-6">
         <a
           target="_blank"
@@ -45,7 +52,7 @@ function Local() {
         ></iframe>
       </div>
       <div className="flex justify-around mb-6 mt-6">
-        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded flex flex-row items-center space-x-1">
+        <button className="bg-dark-green text-white text-sm font-bold font-thin py-2 px-2 rounded flex flex-row items-center space-x-1">
           <a
             target="_blank"
             href="https://ul.waze.com/ul?place=ChIJvY4wUecRqwcRGmXyAc8FbpE&ll=-7.93123310%2C-35.03289350&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location"
@@ -55,7 +62,7 @@ function Local() {
           </a>
           <Icon icon="mdi:waze" width="24" height="24" />
         </button>
-        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded flex flex-row items-center space-x-1">
+        <button className="bg-dark-green text-white text-sm font-bold font-thin py-2 px-2 rounded flex flex-row items-center space-x-1">
           <a
             target="_blank"
             href="https://www.google.com/maps/dir//Condom%C3%ADnio+Terra+Viva+-+Av.+Indai%C3%A1+de+Aldeia,+Paudalho+-+PE,+55825-000/@-7.9312331,-35.0328935,17z/data=!4m6!4m5!1m0!1m2!1m1!1s0x7ab11e751308ebd:0x916e05cf01f2651a!3e0"
@@ -67,12 +74,12 @@ function Local() {
         </button>
       </div>
       <div className="p-4 space-y-6">
-        <h1 className="text-sm text-center font-bold">
+        <h1 className="text-sm text-center font-extrabold uppercase font-thin text-dark-green">
           Ainda ficou com dúvida sobre o local?
         </h1>
       </div>
       <div className="flex justify-center">
-        <button className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded flex flex-row items-center space-x-1">
+        <button className="bg-dark-green text-white text-sm font-bold font-thin py-2 px-2 rounded flex flex-row items-center space-x-1">
           <a
             target="_blank"
             href="https://wa.me/+5581979146178"
