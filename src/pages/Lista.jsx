@@ -34,7 +34,7 @@ function Lista() {
         <h1 className="text-sm text-center font-bold text-dark-green">Caso prefira nos presentar com itens fora da nossa lista</h1>
       </div>
       <div className="mb-4 w-full ml-2 mr-2 flex flex-row space-x-2 justify-center">
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1">
+        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
             <img className="w-2/3" src="../../images/rancho luar.jpg" />
           </div>
@@ -44,7 +44,7 @@ function Lista() {
             <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
           </button>
         </div>
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1">
+        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
             <img className="w-2/3" src="../../images/rancho luar.jpg" />
           </div>
@@ -56,7 +56,7 @@ function Lista() {
         </div>
       </div>
       <div className="w-full ml-2 mr-2 flex flex-row space-x-2 justify-center">
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1">
+        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
             <img className="w-2/3" src="../../images/rancho luar.jpg" />
           </div>
@@ -66,7 +66,7 @@ function Lista() {
             <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
           </button>
         </div>
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1">
+        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
             <img className="w-2/3" src="../../images/rancho luar.jpg" />
           </div>

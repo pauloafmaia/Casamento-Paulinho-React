@@ -27,7 +27,7 @@ function NavBar() {
                 onClick={setMenuOpen}
                 to={"/local"}
               >
-                Local
+                Local e Data
               </NavLink>
               <NavLink
                 className="font-thin"

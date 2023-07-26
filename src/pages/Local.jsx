@@ -4,7 +4,7 @@ function Local() {
   return (
     <>
       <div className="p-4 space-y-6">
-        <h1 className="text-sm text-center font-bold">Localização</h1>
+        <h1 className="text-sm text-center font-bold">Local e Data</h1>
         <p className="text-xs text-justify">
           A fazenda fica a aproximadamente 2 horas de distância de São Paulo.
           Foi fundada em 1854 pelo Barão de São João de Rio Claro. O nome de
@@ -24,6 +24,10 @@ function Local() {
           energia elétrica, além de cunhar sua própria moeda.
         </p>
       </div>
+      <h1 className="text-sm text-center font-bold">Condomínio Terra Viva</h1>
+      <h1 className="text-xs text-center">
+        Av. Indaiá de Aldeia, Paudalho - PE, 55825-000
+      </h1>
       <div className="mr-4 ml-4 mt-6">
         <a
           target="_blank"
