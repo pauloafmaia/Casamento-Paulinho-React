@@ -2,15 +2,15 @@ function Presenca() {
   return (
     <>
       <div className="p-4">
-        <h1 className="text-2xl text-center font-thin font-extrabold text-dark-green">
+        <h1 className="lg:text-4xl text-2xl text-center font-thin font-extrabold text-dark-green">
           Confirmar Presença
         </h1>
       </div>
-      <div className="w-full p-4">
-        <form id="contact" onSubmit="return postToGoogle()" className="flex flex-col space-y-8" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGLBSNZwymVh1GOi9qTH2sIOv2A-2AFuXrP5QKWhLuVjypkA/formResponse">
+      <div className="w-full p-4 lg:justify-center lg:flex">
+        <form id="contact" onSubmit="return postToGoogle()" className="flex flex-col space-y-8 lg:w-1/2" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdGLBSNZwymVh1GOi9qTH2sIOv2A-2AFuXrP5QKWhLuVjypkA/formResponse">
           <input
             placeholder="Nome Completo"
-            className="rounded-lg p-2 font-thin w-full text-xs"
+            className="rounded-lg p-2 font-thin w-full text-xs lg:text-lg"
             id="nome"
             name="entry.122718158"
             type="text"
@@ -18,12 +18,12 @@ function Presenca() {
           />
           <div className="flex flex-row w-full items-center justify-between">
             <label
-              className="text-xs w-1/2 font-thin text-dark-green"
+              className="lg:text-lg text-xs w-1/2 font-thin text-dark-green"
               htmlFor=""
             >
               Você irá ao evento?
             </label>
-            <div className="text-xs items-center space-x-2 font-thin text-dark-green">
+            <div className="lg:text-lg text-xs items-center space-x-2 font-thin text-dark-green">
               <label htmlFor="Sim">Sim</label>
               <input type="radio" name="entry.313144753" id="Sim" value="Sim" />
               <label htmlFor="Não">Não</label>
@@ -32,13 +32,13 @@ function Presenca() {
           </div>
           <div className="flex flex-row w-full items-center justify-between">
             <label
-              className="text-xs w-1/2 font-thin text-dark-green"
+              className="lg:text-lg text-xs w-1/2 font-thin text-dark-green"
               htmlFor=""
             >
               Quantidade de Adultos:
             </label>
             <select
-              className="rounded-lg p-2 w-1/5 text-xs text-center"
+              className="lg:text-lg rounded-lg p-2 w-1/5 text-xs text-center lg:w-1/12"
               id="adultos"
               name="entry.133908691"
             >
@@ -51,13 +51,13 @@ function Presenca() {
           </div>
           <div className="flex flex-row w-full items-center justify-between">
             <label
-              className="text-xs w-1/2 font-thin text-dark-green"
+              className="lg:text-lg text-xs w-1/2 font-thin text-dark-green"
               htmlFor=""
             >
               Quantidade de Crianças:
             </label>
             <select
-              className="rounded-lg p-2 w-1/5 text-xs text-center"
+              className="lg:text-lg rounded-lg p-2 w-1/5 text-xs text-center lg:w-1/12"
               id="criancas"
               name="entry.1715051757"
             >
@@ -70,7 +70,7 @@ function Presenca() {
           </div>
           <button
             type="submit"
-            className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded font-thin"
+            className="bg-dark-green text-white text-xs font-bold py-2 px-2 rounded font-thin lg:text-lg"
           >
             Enviar
           </button>

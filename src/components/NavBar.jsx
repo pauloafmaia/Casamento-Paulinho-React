@@ -54,22 +54,21 @@ function NavBar() {
           </div>
         )}
       </div>
-      <div className="w-full h-auto bg-dark-green p-4 hidden lg:block sticky top-0">
-        <ul className="flex flex-row justify-end items-center text-sm  space-x-6">
-          <NavLink className="font-bold " onClick={setMenuOpen} to={"/"}>
+      <div className="w-full h-auto bg-dark-green p-4 hidden lg:block sticky top-0 text-white">
+        <ul className="flex flex-row justify-center items-center text-md space-x-6">
+          <NavLink className="font-bold lg:hover:border-b-2" to={"/"}>
             Laura & Paulinho
           </NavLink>
-          <NavLink className="font-bold " onClick={setMenuOpen} to={"/local"}>
-            Local
+          <NavLink className="font-bold lg:hover:border-b-2" to={"/local"}>
+            Local e Data
           </NavLink>
-          <NavLink className="font-bold " onClick={setMenuOpen} to={"/lista"}>
+          <NavLink className="font-bold lg:hover:border-b-2" to={"/traje"}>
+            Traje
+          </NavLink>
+          <NavLink className="font-bold lg:hover:border-b-2" to={"/lista"}>
             Lista de Presentes
           </NavLink>
-          <NavLink
-            className="font-bold "
-            onClick={setMenuOpen}
-            to={"/presenca"}
-          >
+          <NavLink className="font-bold lg:hover:border-b-2" to={"/presenca"}>
             Confirmar Presença
           </NavLink>
         </ul>
