@@ -5,23 +5,8 @@ function Local() {
     <>
       <div className="p-4 space-y-6">
         <h1 className="text-2xl text-center font-thin font-extrabold text-dark-green">Local e Data</h1>
-        <p className="text-sm text-justify font-thin text-dark-green">
-          A fazenda fica a aproximadamente 2 horas de distância de São Paulo.
-          Foi fundada em 1854 pelo Barão de São João de Rio Claro. O nome de
-          Santa Gertrudes foi posto pelo Barão em homenagem à memória de sua
-          mãe, D. Gertrudes Galvão de Moura Lacerda.
-        </p>
-        <p className="text-sm text-justify font-thin text-dark-green">
-          Após a morte do Marquês e de sua mulher, a fazenda foi herdada por D.
-          Antônia dos Santos Silva Prates e pelo Conde de Prates, atingindo o
-          seu apogeu.
-        </p>
-        <p className="text-sm text-justify font-thin text-dark-green">
-          Entre 1890 e 1910 , o Conde construiu uma das maiores e mais
-          tecnificadas estruturas de plantação, benefício e comercialização do
-          café, incluindo ferraria, selaria, máquinas, escola, cinema,
-          aquedutos, igreja, mirantes, usina a vapor para fornecimento da
-          energia elétrica, além de cunhar sua própria moeda.
+        <p className="text-sm text-center font-thin text-dark-green">
+          O dia tão sonhado ocorrerá no Condomínio Terra Viva, local especial para a família da noiva.
         </p>
       </div>
       <div className="flex justify-center p-4">
