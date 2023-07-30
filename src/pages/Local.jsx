@@ -12,7 +12,10 @@ function Local() {
       <div className="flex justify-center p-4">
         <img className="w-1/2" src="../../images/teste.png" alt="" />
       </div>
-      <div className="p-4">
+      <div className="p-4 space-y-2">
+        <h1 className="text-sm text-center font-extrabold font-thin uppercase text-dark-green">
+          23.09.23 às 15h
+        </h1>
         <h1 className="text-sm text-center font-extrabold font-thin uppercase text-dark-green">
           Condomínio Terra Viva
         </h1>
