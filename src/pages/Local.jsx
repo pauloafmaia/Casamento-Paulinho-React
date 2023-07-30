@@ -64,7 +64,7 @@ function Local() {
         <button className="bg-dark-green text-white text-sm font-bold font-thin py-2 px-2 rounded flex flex-row items-center space-x-1">
           <a
             target="_blank"
-            href="https://wa.me/+5581979146178"
+            href="https://wa.me/+5581979141678"
             rel="noreferrer"
           >
             Falar com os noivos
