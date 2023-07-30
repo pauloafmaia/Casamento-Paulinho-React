@@ -1,3 +1,7 @@
+Criaçao de Site para Casamento.
+Linguagens utilizadas: ReactJs, JavaScript
+Site: lauraepaulinho.com.br
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
