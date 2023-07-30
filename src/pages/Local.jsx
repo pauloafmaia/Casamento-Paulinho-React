@@ -23,8 +23,8 @@ function Local() {
           Av. Indaiá de Aldeia, Paudalho - PE, 55825-000
         </h1>
       </div>
-      <div className="mr-4 ml-4 mt-6 lg:flex lg:justify-center">
-          <img className="w-1/2" src="../../images/cond.jpg" alt="" />
+      <div className="mr-4 ml-4 mt-6 lg:flex lg:justify-center flex justify-center">
+          <img className="w-full lg:w-1/2" src="../../images/cond.jpg" alt="" />
       </div>
       <div className="w-full h-auto p-5 flex justify-center items-center mb-6 mt-6">
         <iframe
