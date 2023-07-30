@@ -5,17 +5,10 @@ function Lista() {
         <h1 className="text-2xl text-center font-thin font-extrabold text-dark-green">
           Lista de Presentes
         </h1>
-        <p className="text-xs text-justify text-dark-green font-thin">
-          A fazenda fica a aproximadamente 2 horas de distância de São Paulo.
-          Foi fundada em 1854 pelo Barão de São João de Rio Claro. O nome de
-          Santa Gertrudes foi posto pelo Barão em homenagem à memória de sua
-          mãe, D. Gertrudes Galvão de Moura Lacerda.
-        </p>
-        <p className="text-xs text-justify text-dark-green font-thin">
-          A fazenda fica a aproximadamente 2 horas de distância de São Paulo.
-          Foi fundada em 1854 pelo Barão de São João de Rio Claro. O nome de
-          Santa Gertrudes foi posto pelo Barão em homenagem à memória de sua
-          mãe, D. Gertrudes Galvão de Moura Lacerda.
+        <p className="text-xs text-center text-dark-green font-thin">
+          Escolhemos a Ferreira Costa para realizarmos a nossa lista de
+          casamento. Clique na imagem abaixo para ser redirecionado a nossa
+          lista.
         </p>
       </div>
       <div className="w-full mt-6 mb-6">
@@ -38,54 +31,89 @@ function Lista() {
         </h1>
       </div>
       <div className="mb-4 w-full ml-2 mr-2 flex flex-row space-x-2 justify-center">
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
-            <img className="w-2/3" src="../../images/rancho luar.jpg" />
+            <img className="w-full" src="../../images/rancho luar.jpg" />
           </div>
           <h1 className="font-bold text-xs text-dark-green font-thin">
             Diária na Pousada Rancho Luar
           </h1>
-          <p className="text-xs text-dark-green font-thin">R$200,00</p>
+          <p className="text-xs text-dark-green font-thin">R$400,00</p>
           <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
-            <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
+            <a href="https://nubank.com.br/pagar/9okb/fV2U6ADFlA">Presentear</a>
           </button>
         </div>
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
-            <img className="w-2/3" src="../../images/rancho luar.jpg" />
+            <img
+              className="w-full"
+              src="../../images/pousada tatua.jpg"
+            />
           </div>
           <h1 className="font-bold text-xs text-dark-green font-thin">
-            Diária na Pousada Rancho Luar
+            Diária na Pousada Tatuá
           </h1>
-          <p className="text-xs text-dark-green font-thin">R$200,00</p>
+          <p className="text-xs text-dark-green font-thin">R$1250,00</p>
           <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
-            <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
+            <a href="https://nubank.com.br/pagar/9okb/YvP1uVI9X0">Presentear</a>
+          </button>
+        </div>
+      </div>
+      <div className="w-full mb-4 ml-2 mr-2 flex flex-row space-x-2 justify-center">
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
+          <div className="flex justify-center w-full">
+            <img
+              className="w-full"
+              src="../../images/Jantar-romantico.jpg"
+            />
+          </div>
+          <h1 className="font-bold text-xs text-dark-green font-thin">
+            Jantar Especial na Lua de Mel
+          </h1>
+          <p className="text-xs text-dark-green font-thin">R$150,00</p>
+          <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
+            <a href="https://nubank.com.br/pagar/9okb/79FRLNdldh">Presentear</a>
+          </button>
+        </div>
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
+          <div className="flex justify-center w-full">
+            <img className="w-full" src="../../images/barco.jpeg" />
+          </div>
+          <h1 className="font-bold text-xs text-dark-green font-thin">
+            Passeio de barco Praia do Patacho
+          </h1>
+          <p className="text-xs text-dark-green font-thin">R$250,00</p>
+          <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
+            <a href="https://nubank.com.br/pagar/9okb/tQ0imrdekX">Presentear</a>
           </button>
         </div>
       </div>
       <div className="w-full ml-2 mr-2 flex flex-row space-x-2 justify-center">
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
-            <img className="w-2/3" src="../../images/rancho luar.jpg" />
+            <img
+              className="w-full"
+              src="../../images/buggy.jpg"
+            />
           </div>
           <h1 className="font-bold text-xs text-dark-green font-thin">
-            Diária na Pousada Rancho Luar
+            Passeio de buggy em Patacho
           </h1>
-          <p className="text-xs text-dark-green font-thin">R$200,00</p>
+          <p className="text-xs text-dark-green font-thin">R$250,00</p>
           <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
-            <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
+            <a href="https://nubank.com.br/pagar/9okb/tQ0imrdekX">Presentear</a>
           </button>
         </div>
-        <div className="shadow-md w-32 h-56 p-4 text-center space-y-1 bg-dark-gray rounded">
+        <div className="shadow-md w-32 h-48 p-4 text-center space-y-1 bg-dark-gray rounded">
           <div className="flex justify-center w-full">
-            <img className="w-2/3" src="../../images/rancho luar.jpg" />
+            <img className="w-full" src="../../images/beach club.jpg" />
           </div>
           <h1 className="font-bold text-xs text-dark-green font-thin">
-            Diária na Pousada Rancho Luar
+            Beach Club em Patacho
           </h1>
           <p className="text-xs text-dark-green font-thin">R$200,00</p>
           <button className="bg-dark-green text-white text-xs font-thin py-2 px-2 rounded">
-            <a href="https://nubank.com.br/pagar/9okb/QrPDqZw8yn">Presentear</a>
+            <a href="https://nubank.com.br/pagar/9okb/H43G2ExfGw">Presentear</a>
           </button>
         </div>
       </div>

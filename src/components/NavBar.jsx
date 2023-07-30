@@ -32,6 +32,13 @@ function NavBar() {
               <NavLink
                 className="font-thin"
                 onClick={setMenuOpen}
+                to={"/traje"}
+              >
+                Traje
+              </NavLink>
+              <NavLink
+                className="font-thin"
+                onClick={setMenuOpen}
                 to={"/lista"}
               >
                 Lista de Presentes

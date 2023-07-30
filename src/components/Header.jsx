@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="h-auto w-auto">
       <Link to={"/"}>
-        <img src="../../images/Novo Projeto.png" alt="" />
+        <img src="../../images/IMG_1128 1.jpg" alt="" />
       </Link>
     </div>
   );
